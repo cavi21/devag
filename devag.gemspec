@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Devag::VERSION
   spec.authors       = ["Agustin Cavilliotti"]
   spec.email         = ["cavi21@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A debugging or profiler little help}
+  spec.description   = %q{A gem that try to simplify or at least help out debugging views and controllers of a Rails app looking for recursive calls to the DB and recursive calls to partials}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rails", "~> 3.2.18"
+  spec.add_development_dependency "sqlite3"
+
 end
